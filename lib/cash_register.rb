@@ -34,6 +34,7 @@ def add_item(title,price,quantity = 1)
 
 
   def void_last_transaction()
+    binding.pry
     @total = @total - @last_transaction_amount
   end
 
